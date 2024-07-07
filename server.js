@@ -34,7 +34,7 @@ io.on("connection", (socket) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Server aktif");
+  res.redirect(process.env.DOMAIN);
 });
 
 const port = 2000;
