@@ -14,6 +14,7 @@ import paymentRoutes from "./routes/PaymentRoutes.js";
 import orderRoutes from "./routes/OrderRoutes.js";
 import googleRoutes from "./routes/GoogleRoutes.js";
 import storeRoutes from "./routes/StoreRoutes.js";
+import chatRoutes from "./routes/chatRoutes.js";
 
 import { Strategy as GoogleStrategy } from "passport-google-oauth2";
 import path from "path";
@@ -90,5 +91,6 @@ app.use("/shipping", shippingRoutes);
 app.use("/payment", paymentRoutes);
 app.use("/order", orderRoutes);
 app.use("/store", storeRoutes);
+app.use("/chat", chatRoutes);
 
 export default app;
