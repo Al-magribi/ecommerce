@@ -37,11 +37,7 @@ app.get("/", (req, res) => {
 });
 
 const port = 2000;
-const portSocket = 1000;
-
-app.listen(port, () => {
-  console.log("Server listening on port " + port);
-});
+const portSocket = 2000;
 
 server.listen(portSocket, () => {
   console.log(`Socket server on port ${portSocket}`);
