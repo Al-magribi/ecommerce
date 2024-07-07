@@ -7,6 +7,7 @@ import { orderApi } from "./api/orderApi";
 import { cartApi } from "./api/cartApi";
 import { userApi } from "./api/userApi";
 import { storeApi } from "./api/storeApi";
+import { chatApi } from "./api/chatApi";
 
 const store = configureStore({
   reducer: {
@@ -18,6 +19,7 @@ const store = configureStore({
     [cartApi.reducerPath]: cartApi.reducer,
     [userApi.reducerPath]: userApi.reducer,
     [storeApi.reducerPath]: storeApi.reducer,
+    [chatApi.reducerPath]: chatApi.reducer,
   },
 
   middleware: (getDefaultMiddleware) =>
@@ -29,6 +31,7 @@ const store = configureStore({
       cartApi.middleware,
       userApi.middleware,
       storeApi.middleware,
+      chatApi.middleware,
     ]),
 });
 

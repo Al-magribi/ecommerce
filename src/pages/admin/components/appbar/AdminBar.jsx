@@ -59,6 +59,12 @@ const AdminBar = () => {
     }
   }, [isLogout, message]);
 
+  const settingPage = () => {
+    setAnchorEl(null);
+
+    navigate("/admin-setting");
+  };
+
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="fixed">
@@ -105,7 +111,7 @@ const AdminBar = () => {
             open={Boolean(anchorEl)}
             onClose={handleClose}
           >
-            <MenuItem onClick={handleClose}>Setting</MenuItem>
+            <MenuItem onClick={settingPage}>Setting</MenuItem>
             <MenuItem onClick={logout}>Logout</MenuItem>
           </Menu>
         </Toolbar>

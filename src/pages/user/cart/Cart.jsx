@@ -12,6 +12,7 @@ import { useEffect, useState } from "react";
 import iziToast from "izitoast";
 import Title from "../../../components/title/Title";
 import Protect from "../Protect";
+import Chat from "../chat/Chat";
 
 const Cart = () => {
   Protect();
@@ -275,6 +276,8 @@ const Cart = () => {
           </Box>
         </Box>
       </Box>
+
+      <Chat />
     </>
   );
 };

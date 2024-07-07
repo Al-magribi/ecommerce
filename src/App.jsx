@@ -21,6 +21,7 @@ import Confirm from "./pages/product/Confirm";
 import AddProduct from "./pages/admin/products/AddProduct";
 import EditProduct from "./pages/admin/products/EditProduct";
 import SettingPage from "./pages/admin/setting/SettingPage";
+import ChatPage from "./pages/admin/chat/ChatPage";
 
 function App() {
   const dispatch = useDispatch();
@@ -66,6 +67,8 @@ function App() {
         <Route path="/admin-laporan" element={<ReportPage />} />
 
         <Route path="/admin-setting" element={<SettingPage />} />
+
+        <Route path="/admin-pesan" element={<ChatPage />} />
       </Routes>
     </BrowserRouter>
   );

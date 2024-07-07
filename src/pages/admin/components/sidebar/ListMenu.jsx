@@ -4,6 +4,7 @@ import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
 import LocalMallIcon from "@mui/icons-material/LocalMall";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import AssessmentIcon from "@mui/icons-material/Assessment";
+import ChatIcon from "@mui/icons-material/Chat";
 import { blue } from "@mui/material/colors";
 
 const ListMenu = [
@@ -36,6 +37,11 @@ const ListMenu = [
     label: "Laporan",
     link: "/admin-laporan",
     icon: <AssessmentIcon sx={{ color: blue[800] }} />,
+  },
+  {
+    label: "Pesan",
+    link: "/admin-pesan",
+    icon: <ChatIcon sx={{ color: blue[800] }} />,
   },
 ];
 

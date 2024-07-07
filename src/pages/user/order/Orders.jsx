@@ -4,6 +4,7 @@ import Footer from "../../../components/footer/Footer";
 import ListOrders from "./ListOrders";
 import Title from "../../../components/title/Title";
 import Protect from "../Protect";
+import Chat from "../chat/Chat";
 
 const Orders = () => {
   Protect();
@@ -16,6 +17,8 @@ const Orders = () => {
       <Box sx={{ minHeight: 620, padding: "30px" }}>
         <ListOrders />
       </Box>
+
+      <Chat />
 
       <Footer />
     </Box>
