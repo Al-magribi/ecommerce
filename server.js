@@ -8,6 +8,7 @@ import Chat from "./models/Chat.js";
 connect();
 
 const server = http.createServer(app);
+
 const io = new Server(server, {
   cors: {
     origin: process.env.DOMAIN,
@@ -37,8 +38,8 @@ app.get("/", (req, res) => {
 });
 
 const port = 2000;
-const portSocket = 2000;
+const portSocket = 1000;
 
-server.listen(portSocket, () => {
-  console.log(`Socket server on port ${portSocket}`);
+server.listen(port, () => {
+  console.log(`Socket server on port ${port}`);
 });
