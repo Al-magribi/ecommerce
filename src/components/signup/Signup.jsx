@@ -58,6 +58,12 @@ const Signup = () => {
     }
   }, [isRegister, isRegisterError, error, message, user]);
 
+  const googleLogin = () => {
+    location.href = `${import.meta.env.VITE_BASE_URL}/auth/google/ecommerce`;
+
+    localStorage.setItem("login", JSON.stringify("login"));
+  };
+
   return (
     <Box
       sx={{
@@ -67,7 +73,7 @@ const Signup = () => {
         justifyContent: "center",
       }}
     >
-      <Title title={"Toserba | Daftar"} />
+      <Title title={"Daftar"} />
 
       <Box
         sx={{
@@ -173,6 +179,7 @@ const Signup = () => {
                 variant="contained"
                 color="error"
                 startIcon={<GoogleIcon />}
+                onClick={googleLogin}
               >
                 Google
               </Button>

@@ -52,6 +52,12 @@ const LoginPage = () => {
     }
   }, [isAuth, error]);
 
+  const googleLogin = () => {
+    location.href = `${import.meta.env.VITE_BASE_URL}/auth/google/ecommerce`;
+
+    localStorage.setItem("login", JSON.stringify("login"));
+  };
+
   return (
     <Box
       sx={{
@@ -61,7 +67,7 @@ const LoginPage = () => {
         justifyContent: "center",
       }}
     >
-      <Title title={"Toserba | Login"} />
+      <Title title={"Login"} />
       <Box
         sx={{
           width: 1000,
@@ -144,6 +150,7 @@ const LoginPage = () => {
               variant="contained"
               color="error"
               startIcon={<GoogleIcon />}
+              onClick={googleLogin}
             >
               Google
             </Button>
