@@ -19,13 +19,17 @@ router.get(
   "/google/ecommerce",
   passport.authenticate("google", { failureRedirect: "/" }),
   async (req, res) => {
-    if (!req.user) {
-      return res.status(401).json({ message: "Anda tidak terotentikasi" });
+    try {
+      if (!req.user) {
+        return res.status(401).json({ message: "Anda tidak terotentikasi" });
+      }
+
+      const token = genereateToken(req.user);
+
+      res.status(200).cookie("token", token).redirect(process.env.DOMAIN);
+    } catch (error) {
+      console.log(error);
     }
-
-    const token = genereateToken(req.user);
-
-    res.status(200).cookie("token", token).redirect(process.env.DOMAIN);
   }
 );
 

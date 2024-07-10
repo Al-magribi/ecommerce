@@ -64,6 +64,8 @@ passport.use(
       clientID: process.env.CLIENT_ID,
       clientSecret: process.env.CLIENT_SECRET,
       callbackURL: "/auth/google/ecommerce",
+      userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo",
+      scope: ["profile", "email"],
     },
     function (accessToken, refreshToken, profile, cb) {
       User.findOrCreate(
