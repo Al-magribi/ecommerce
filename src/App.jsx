@@ -22,6 +22,7 @@ import AddProduct from "./pages/admin/products/AddProduct";
 import EditProduct from "./pages/admin/products/EditProduct";
 import SettingPage from "./pages/admin/setting/SettingPage";
 import ChatPage from "./pages/admin/chat/ChatPage";
+import Policy from "./pages/Policy";
 
 function App() {
   const dispatch = useDispatch();
@@ -36,6 +37,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/policy" element={<Policy />} />
+
         <Route path="/login" element={<LoginPage />} />
 
         <Route path="/daftar" element={<Signup />} />
