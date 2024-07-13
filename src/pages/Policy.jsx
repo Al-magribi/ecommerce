@@ -2,7 +2,7 @@ import React from "react";
 
 const Policy = () => {
   return (
-    <div>
+    <div className="policy">
       <p>Privacy Policy for E-Commerce Platform</p>
 
       <p>Effective Date: [Insert Date]</p>
