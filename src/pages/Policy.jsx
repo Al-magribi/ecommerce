@@ -3,123 +3,157 @@ import React from "react";
 const Policy = () => {
   return (
     <div className="policy">
-      <p>Privacy Policy for E-Commerce Platform</p>
+      <p>
+        Sure, here's a draft of the Privacy Policy and Terms of Service for
+        login and registration using Google Account:
+      </p>
+
+      <p>---</p>
+
+      <p>**Privacy Policy**</p>
 
       <p>Effective Date: [Insert Date]</p>
 
-      <p>1. Introduction</p>
-
       <p>
-        Welcome to our E-Commerce Platform's Privacy Policy. We are committed to
-        protecting your privacy and ensuring that your personal information is
-        handled in a safe and responsible manner. This policy outlines how we
-        collect, use, disclose, and safeguard your information when you visit
-        our website or make purchases through our platform.
+        Welcome to [Your App Name]. Your privacy is important to us. This
+        Privacy Policy explains how we collect, use, disclose, and safeguard
+        your information when you log in or register using your Google Account.
       </p>
 
-      <p>2. Information We Collect</p>
+      <p>**1. Information We Collect**</p>
 
       <p>
-        We collect various types of information in order to provide you with our
-        services and improve your shopping experience. The types of information
-        we collect include:
+        When you log in or register using your Google Account, we collect the
+        following information from your Google profile: - Full Name - Email
+        Address - Profile Picture (if available)
       </p>
 
+      <p>**2. How We Use Your Information**</p>
+
       <p>
-        - **Personal Information:** Name, address, email address, phone number,
-        payment information, etc. - **Transactional Information:** Details about
-        your purchases, order history, etc. - **Technical Information:** IP
-        address, browser type, device information, cookies, etc. - **Other
-        Information:** Preferences, feedback, reviews, etc.
+        We use the information we collect to: - Create and manage your account -
+        Provide, operate, and maintain our services - Improve, personalize, and
+        expand our services - Understand and analyze how you use our services
       </p>
 
-      <p>3. How We Use Your Information</p>
-
-      <p>We use the information we collect for various purposes, including:</p>
+      <p>**3. Sharing Your Information**</p>
 
       <p>
-        - Processing and fulfilling your orders - Communicating with you about
-        your orders and inquiries - Providing customer support - Improving our
-        products and services - Marketing and promotional purposes (with your
-        consent where required)
+        We do not share your personal information with third parties except in
+        the following circumstances: - With your consent - To comply with legal
+        obligations - To protect and defend our rights and property
       </p>
 
-      <p>4. Disclosure of Your Information</p>
+      <p>**4. Managing Access to Your Google Account**</p>
 
       <p>
-        We may share your information with third parties under certain
-        circumstances, including:
+        You can manage the access and permissions of our app to your Google
+        Account at any time. To do this, follow these steps: 1. Go to your
+        Google Account settings. 2. Navigate to the &quot;Security&quot;
+        section. 3. Under &quot;Third-party apps with account access,&quot;
+        select our app and modify permissions as needed.
       </p>
 
       <p>
-        - Service Providers: To facilitate our services (e.g., payment
-        processors, shipping companies) - Legal Compliance: To comply with legal
-        obligations or protect our rights - Business Transfers: In connection
-        with a merger, sale, or asset transfer
+        For more information on how Google helps you share your data safely,
+        please visit [Google's Safety Center](https://safety.google/intl/en/).
       </p>
 
-      <p>5. Security of Your Information</p>
+      <p>**5. Data Security**</p>
 
       <p>
-        We implement reasonable security measures to protect your personal
-        information from unauthorized access, alteration, disclosure, or
-        destruction. However, no method of transmission over the internet or
-        electronic storage is completely secure.
+        We implement appropriate technical and organizational measures to
+        protect your personal information from unauthorized access, use, or
+        disclosure.
       </p>
 
-      <p>6. Your Rights and Choices</p>
-
-      <p>
-        You have certain rights regarding your personal information, including
-        the right to access, correct, or delete your information. You may also
-        have the right to object to or restrict certain processing activities.
-      </p>
-
-      <p>7. Cookies and Tracking Technologies</p>
-
-      <p>
-        We use cookies and similar tracking technologies to enhance your
-        browsing experience and analyze website usage. You can control cookies
-        through your browser settings.
-      </p>
-
-      <p>8. Children's Privacy</p>
-
-      <p>
-        Our services are not directed to children under the age of 13. We do not
-        knowingly collect personal information from children.
-      </p>
-
-      <p>9. Changes to This Privacy Policy</p>
+      <p>**6. Changes to This Privacy Policy**</p>
 
       <p>
         We may update this Privacy Policy from time to time. We will notify you
-        of any changes by posting the new policy on our website with an updated
-        effective date.
+        of any changes by posting the new Privacy Policy on this page.
       </p>
 
-      <p>10. Contact Us</p>
+      <p>**7. Contact Us**</p>
 
       <p>
-        If you have any questions or concerns about this Privacy Policy or our
-        privacy practices, please contact us at [contact information].
+        If you have any questions about this Privacy Policy, please contact us
+        at [Your Contact Information].
       </p>
 
-      <p>Conclusion</p>
+      <p>---</p>
+
+      <p>**Terms of Service**</p>
+
+      <p>Effective Date: [Insert Date]</p>
 
       <p>
-        By using our E-Commerce Platform, you consent to the collection and use
-        of your information as described in this Privacy Policy. It is important
-        that you review this policy periodically to stay informed about our
-        practices.
+        Welcome to [Your App Name]. These Terms of Service govern your use of
+        our website and services, including logging in and registering using
+        your Google Account.
+      </p>
+
+      <p>**1. Acceptance of Terms**</p>
+
+      <p>
+        By accessing or using our services, you agree to be bound by these Terms
+        of Service. If you do not agree to these terms, please do not use our
+        services.
+      </p>
+
+      <p>**2. Using Your Google Account**</p>
+
+      <p>
+        When you choose to log in or register using your Google Account, you
+        agree to provide accurate and complete information. You are responsible
+        for maintaining the confidentiality of your account and password and for
+        restricting access to your computer.
+      </p>
+
+      <p>**3. Privacy Policy**</p>
+
+      <p>
+        Your use of our services is also governed by our Privacy Policy. By
+        using our services, you consent to the collection and use of your
+        information as outlined in our Privacy Policy.
+      </p>
+
+      <p>**4. Modifications to Service**</p>
+
+      <p>
+        We reserve the right to modify or discontinue, temporarily or
+        permanently, our services (or any part thereof) with or without notice.
+      </p>
+
+      <p>**5. Termination**</p>
+
+      <p>
+        We may terminate or suspend your access to our services immediately,
+        without prior notice or liability, for any reason, including if you
+        breach these Terms of Service.
+      </p>
+
+      <p>**6. Governing Law**</p>
+
+      <p>
+        These Terms of Service shall be governed and construed in accordance
+        with the laws of [Your Jurisdiction], without regard to its conflict of
+        law provisions.
+      </p>
+
+      <p>**7. Contact Us**</p>
+
+      <p>
+        If you have any questions about these Terms of Service, please contact
+        us at [Your Contact Information].
       </p>
 
       <p>---</p>
 
       <p>
-        This template covers essential aspects of a privacy policy for an
-        e-commerce platform. Make sure to customize it further based on your
-        specific business practices and legal requirements.
+        Please ensure to replace placeholders like [Your App Name], [Insert
+        Date], and [Your Contact Information] with the appropriate details of
+        your application.
       </p>
     </div>
   );
